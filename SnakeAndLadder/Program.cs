@@ -8,6 +8,7 @@
 
             Game snakegame = new Game();
             snakegame.player1();
+            snakegame.firstDiceRoll();
         }
     }
 }
