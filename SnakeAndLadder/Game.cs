@@ -18,6 +18,7 @@ namespace SnakeAndLadder
         public void winningPosition()
         {
             int position = 0;
+            int diceRollCount = 0;
 
             Random random = new Random();
 
@@ -56,6 +57,8 @@ namespace SnakeAndLadder
             {
                 Console.WriteLine("==========Player Wins==========");
             }
+            Console.WriteLine($"\nDice was played {diceRollCount} times to win the game");
+            Console.ReadLine();
         }
     }
 }
