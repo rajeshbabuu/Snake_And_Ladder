@@ -7,8 +7,8 @@
             Console.WriteLine("------Welcome to the Snake and Ladder program");
 
             Game snakegame = new Game();
-            snakegame.player1();
-            snakegame.snakeAndLadder();
+           // snakegame.player1();
+            snakegame.winningPosition();
         }
     }
 }
